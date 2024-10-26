@@ -4,17 +4,19 @@ class Solution:
 
         for a in asteroids:
             while stack and a < 0 < stack[-1]:
-                if stack[-1] < abs(a):
-                    stack.pop()
-                    
-                elif stack[-1] == abs(a):
-                    stack.pop()
-                    break
-                    
-                else:
-                    break
+                diff = a + stack[-1]
 
-            else: 
+                if diff < 0:
+                    stack.pop()
+
+                elif diff > 0:
+                    a = 0
+
+                else:
+                    a = 0
+                    stack.pop()
+
+            if a < 0 or a > 0:
                 stack.append(a)
-        
+
         return stack
