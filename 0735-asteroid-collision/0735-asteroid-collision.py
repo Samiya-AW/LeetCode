@@ -16,7 +16,7 @@ class Solution:
                     a = 0
                     stack.pop()
 
-            if a < 0 or a > 0:
+            if a:
                 stack.append(a)
 
         return stack
