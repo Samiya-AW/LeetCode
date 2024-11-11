@@ -1,7 +1,6 @@
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         count = {}
-        # arr = sorted(nums)
         n = len(nums)
         res = []
         for i in nums:
