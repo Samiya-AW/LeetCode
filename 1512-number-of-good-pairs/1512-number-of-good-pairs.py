@@ -1,20 +1,30 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         
-        # Solution using Hash Table
+        # Solution using Math
 
         res = 0
-        count = {}
+        count = Counter(nums)
 
-        for n in nums:
-            if n in count:
-                res += count[n]
-                count[n] += 1
-
-            else:
-                count[n] = 1
+        for n, c in count.items():
+            res += c * (c - 1) // 2
 
         return res
+
+        # Solution using Hash Table
+
+        # res = 0
+        # count = {}
+
+        # for n in nums:
+        #     if n in count:
+        #         res += count[n]
+        #         count[n] += 1
+
+        #     else:
+        #         count[n] = 1
+
+        # return res
 
 
         # Solution using two for loops
