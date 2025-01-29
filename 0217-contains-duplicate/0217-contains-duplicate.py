@@ -1,6 +1,7 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
 
+        # Hash Table Solution
         hsh = {}
 
         for i in nums:
