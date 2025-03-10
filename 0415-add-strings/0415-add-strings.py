@@ -19,7 +19,7 @@ class Solution:
         
         while add > 0:
             num = add % 10
-            res.append(chr(num + ord('0')))
+            res.append(chr(num + 48))
             add //= 10
         
         res.reverse()
