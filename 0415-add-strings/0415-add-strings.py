@@ -1,5 +1,9 @@
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
+        
+        if num1 == '0' and num2 == '0':
+            return '0'
+
         n1 = 0
         n2 = 0
         
@@ -11,6 +15,13 @@ class Solution:
         
         add = n1 + n2
 
-        res = [x for x in str(add)]
+        res = []
+        
+        while add > 0:
+            num = add % 10
+            res.append(chr(num + ord('0')))
+            add //= 10
+        
+        res.reverse()
 
         return ''.join(res)
