@@ -2,7 +2,7 @@ class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         
         self_dividing = []
-        
+       
         for num in range(left, right + 1):
             n = num
             num_list = []
