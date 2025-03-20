@@ -5,11 +5,11 @@ class Solution:
         str_to_digit = 0
 
         for a in s:
-            digit = alphabets.index(a) + 1
+            a_pos = alphabets.index(a) + 1
 
-            while digit:
-                str_to_digit = (str_to_digit * 10) + (digit % 10)
-                digit //= 10
+            while a_pos:
+                str_to_digit = (str_to_digit * 10) + (a_pos % 10)
+                a_pos //= 10
         
         for d in range(k):
             summ = 0
