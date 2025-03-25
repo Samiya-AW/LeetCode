@@ -9,10 +9,9 @@ class Solution:
             while num:
                 summ += num % 10
                 num //= 10
-            
             return summ
 
         while len(str(num)) > 1:
             num = get_next_number(num)
-            if len(str(num)) == 1:
-                return num
+            # if len(str(num)) == 1:
+        return num
