@@ -11,7 +11,7 @@ class Solution:
             while (start_indx < len_s):
                 group_sum = 0
                 sub_str = s[start_indx : end_indx]
-                group_sum += sum([int(d) for d in list(sub_str)])
+                group_sum = sum([int(d) for d in list(sub_str)])
                 new_s += str(group_sum)
                 start_indx += k
                 end_indx += k
