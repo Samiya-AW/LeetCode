@@ -3,7 +3,7 @@ class Solution:
         
         len_s = len(s)
 
-        while (len_s != k):
+        while (len_s > k):
             new_s = ''
             start_indx = 0
             end_indx = start_indx + k
