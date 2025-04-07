@@ -1,6 +1,8 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        
+
+        # Solution using Slicing
+
         s = s + ' '
         res = ''
         start = 0
@@ -10,3 +12,20 @@ class Solution:
                 start = c + 1
         
         return res.rstrip()
+
+        # Solution without Slicing
+
+        # res = ''
+        # word = ''
+
+        # for c in s:
+        #     if c != ' ':
+        #         word = c + word
+        #     else:
+        #         res += word + ' '
+        #         word = ''
+        # res += word
+        # return res
+
+
+       
