@@ -5,7 +5,7 @@ class Solution:
         word = ''
 
         for c in s:
-            if c != ' ' and c != '':
+            if c != ' ':
                 word += c
             else:
                 if word != '':
