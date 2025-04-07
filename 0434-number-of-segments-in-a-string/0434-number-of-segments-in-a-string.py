@@ -1,14 +1,6 @@
 class Solution:
     def countSegments(self, s: str) -> int:
-        
-        if s == '':
-            return 0
 
-        s = s + ' '
-        seg_count = 0
+        segments = s.split()
 
-        for c in s:
-            if c == ' ':
-                seg_count += 1
-        
-        return seg_count
+        return len(segments)
