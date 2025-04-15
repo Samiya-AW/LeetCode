@@ -1,5 +1,3 @@
-# from collections import defaultdict
-
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
         pairs_count = defaultdict(int)
