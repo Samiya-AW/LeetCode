@@ -3,7 +3,7 @@ class Solution:
         result = 0
 
         for word in words1:
-            if word in words2 and words1.count(word) == 1 and words2.count(word) == 1:
+            if words1.count(word) == 1 and words2.count(word) == 1:
                 result += 1
         
         return result
