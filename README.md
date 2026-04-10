@@ -7,10 +7,12 @@ LeetCode questions I have completed are available in this repository.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2215-find-the-difference-of-two-arrays](https://github.com/Samiya-AW/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2215-find-the-difference-of-two-arrays](https://github.com/Samiya-AW/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
