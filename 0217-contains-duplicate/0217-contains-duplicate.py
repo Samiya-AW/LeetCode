@@ -1,31 +1,13 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
+        duplicates = {}
+        for i in nums:
+            duplicates[i] = duplicates.get(i, 0) + 1
 
-        # Hash Table Solution 2
-        hsh = {}
-
-        for num in nums:
-            if num not in hsh:
-                hsh[num] = 1
-            else:
-                return True
-
-        return False
-
-        #  Hash Table Solution 1
-        # hsh = {}
-
-        # for i in nums:
-        #     hsh[i] = 1 + hsh.get(i, 0)
-        #     if hsh[i] == 2:
-        #         return True
-            
-        # return False
-
-        # # Brute Force Solution
-        # nums = sorted(nums)
-        # for i in range(1, len(nums)):
-        #     if nums[i] == nums[i - 1]:
-        #         return True
+        print(duplicates)
         
-        # return False
+        for d in duplicates.values():
+            if d > 1:
+                return True
+        
+        return False
