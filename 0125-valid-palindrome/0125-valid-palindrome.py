@@ -1,25 +1,21 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
+        # Two pointers solution
+
+        # Cleaning s
+        clean_s = ""
+        for ch in s:
+            if ch.isalnum():
+                clean_s += ch.lower()
         
-        if len(s) == 1:
-            return True
+        # Initialize two pointers
 
-        new_s = ''
-        for c in range(len(s)):
-            if s[c].isalpha():
-                new_s += s[c].lower()
-            elif s[c].isalnum():
-                new_s += s[c]
-
-        if len(new_s) == 1:
-            return True
-
-        i, j = 0, len(new_s) - 1
-
-        while i <= j:
-            if new_s[i] != new_s[j]:
+        left = 0
+        right = len(clean_s) - 1
+        while left <= right:
+            if clean_s[left] != clean_s[right]:
                 return False
-            i += 1
-            j -= 1
-        
+            else:
+                left += 1
+                right -=1
         return True
