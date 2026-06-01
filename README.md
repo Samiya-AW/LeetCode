@@ -10,6 +10,7 @@ LeetCode questions I have completed are available in this repository.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Samiya-AW/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/Samiya-AW/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Samiya-AW/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/Samiya-AW/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -38,4 +39,8 @@ LeetCode questions I have completed are available in this repository.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0125-valid-palindrome](https://github.com/Samiya-AW/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/Samiya-AW/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 <!---LeetCode Topics End-->
