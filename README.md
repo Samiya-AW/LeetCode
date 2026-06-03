@@ -10,6 +10,7 @@ LeetCode questions I have completed are available in this repository.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Samiya-AW/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/Samiya-AW/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0704-binary-search](https://github.com/Samiya-AW/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Samiya-AW/LeetCode/tree/main/1295-find-numbers-with-even-number-of-digits/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Samiya-AW/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/Samiya-AW/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
@@ -33,6 +34,7 @@ LeetCode questions I have completed are available in this repository.
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Samiya-AW/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0704-binary-search](https://github.com/Samiya-AW/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Samiya-AW/LeetCode/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
