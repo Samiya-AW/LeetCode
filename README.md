@@ -7,6 +7,7 @@ LeetCode questions I have completed are available in this repository.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Samiya-AW/LeetCode/tree/main/0001-two-sum/) | Easy |
+| [0035-search-insert-position](https://github.com/Samiya-AW/LeetCode/tree/main/0035-search-insert-position/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Samiya-AW/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0217-contains-duplicate](https://github.com/Samiya-AW/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -32,6 +33,7 @@ LeetCode questions I have completed are available in this repository.
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0035-search-insert-position](https://github.com/Samiya-AW/LeetCode/tree/main/0035-search-insert-position/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Samiya-AW/LeetCode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Samiya-AW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0704-binary-search](https://github.com/Samiya-AW/LeetCode/tree/main/0704-binary-search/) | Easy |
